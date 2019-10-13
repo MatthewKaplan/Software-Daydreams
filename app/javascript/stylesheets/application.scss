@@ -123,5 +123,25 @@ footer ul li {
 
 .img-circle {
   border-radius: 50%;
-  margin: 50px;
+  margin: 30px;
+}
+
+.center-users {
+  margin: 0 auto;
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0;
+}
+
+.articles-tab {
+  color: #eee;
+  top: 7px;
+  position: relative;
+
+  &:hover {
+    color: #eee;
+    text-decoration: none;
+  }
 }
