@@ -109,12 +109,29 @@ footer ul li {
 .article-title {
   font-weight: bold;
   font-size: 1.5em;
+
+  a {
+    color: #DC3545;
+  }
+}
+
+.main-articles-title {
+  color: #974B58;
+  margin: 15px;
+}
+
+.single-article-title {
+  color: #974B58;
 }
 
 .article-body {
   border-top: 1px solid #EAEAEA;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.article-container {
+  margin: 40px auto;
 }
 
 .center-gravatar {
@@ -137,7 +154,7 @@ footer ul li {
 
 .articles-tab {
   color: #eee;
-  top: 7px;
+  top: 8px;
   position: relative;
 
   &:hover {
@@ -158,5 +175,10 @@ footer ul li {
   justify-content: space-between;
 }
 
-.pagination li {
+.nav-link {
+  color: #eee !important;
+
+  &:hover {
+    color: #eee;
+  }
 }
