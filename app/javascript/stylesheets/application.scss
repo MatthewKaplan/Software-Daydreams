@@ -145,3 +145,18 @@ footer ul li {
     text-decoration: none;
   }
 }
+
+.pagination {
+  margin: 20px auto;
+  width: 500px;
+
+}
+
+.pagination ul {
+  border: 1px solid #EAEAEA;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination li {
+}
